@@ -1,0 +1,23 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    color: brown;
+    text-align: center;
+    text-decoration: underline;
+    /* text-decoration: wavy; */
+    /* text-decoration: overline; */
+    font-size: large;
+    /* text-transform: uppercase; */
+    font: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    
+}
+p{
+    line-height: 30px;
+}

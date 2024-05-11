@@ -1,5 +1,3 @@
-Structure of the MERN stack course :- 
-
 front-end :
 HTML - structuring the web pages
 CSS - Styling/designing the web pages
@@ -35,7 +33,7 @@ Library :  Library have not fully predefined so we can use it by our own way.
 
 Domain : 
 
-- Domain name represent the specified name on the google by which our website is represent.
+- Domain name represent the specified name on the google by which our website is represnt.
 - its a specific name so that no one can take it by not taking your permission.
 ex. webbocket.com 
     webbocket - domain name 
@@ -114,25 +112,13 @@ td - table data
 
 task 1 - draw a table to show case your 10th , 12th, graduation marks , education , passout year etc..
 
-list :-
-list are of 2 types-
-1. unoredred list (ul)
-2. ordered list (ol)
-    - list item (li)
+list :- list are of 2 types-
 
+unoredred list (ul)
+ordered list (ol)
+list item (li)
+forms ->
 
-forms -> 
-
-when we are put something for dynamic our web page like fillup the form so we design it in our web pages.
-form - main tag
-
-
-
-
-
-
-
-
-
+when we are put something for dynamic our web page like fillup the form so we design it in our web pages. form - main tag.
 
 

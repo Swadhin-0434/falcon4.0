@@ -1,0 +1,16 @@
+
+#Heding{
+    color: blue;
+}
+#profile{
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+}
+#Paragraph{
+    background-color: blueviolet;
+    color: white;
+}
+.name{
+    color: blueviolet;
+}

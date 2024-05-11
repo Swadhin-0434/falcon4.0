@@ -1,0 +1,8 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-origin: padding-box;
+}
+.main-box{
+    margin: 100px;
+}
