@@ -20,4 +20,6 @@
 }
 p{
     line-height: 30px;
+    background-color: aqua;
+    font-style: italic;
 }

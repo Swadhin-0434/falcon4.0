@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,34 +8,41 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Login form</title>
 </head>
+
 <body>
     <div class="main-box">
-        <form action="">
-        <h1>Instagram <i class='bx bxl-instagram'></i></h1>
-        
-        <div class="box1">
-            <label for="username"></label>
-            <input type="text" placeholder="username" required>
-            <i class='bx bxs-user'></i>
+        <div class="content_box">
+            <form action="">
+                <h1 class="logo">Instagram <i class='bx bxl-instagram'></i></h1>
+                &nbsp;
+                <div class="box1">
+                    <label for="username"></label>
+                    <input type="text" placeholder="username" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                &nbsp;
+                <div class="box2">
+                    <label for="password"></label>
+                    <input type="password" placeholder="password" required>
+                    <i class='bx bxs-lock'></i>
+                </div>
+                &nbsp;
+                <div class="box3">
+                    <label for="checkbox">
+                        <input type="checkbox"> &nbsp Remember me </label>
+                    &nbsp
+                    <a href="#">Forget Password?</a> 
+                    </div>
+                <button type="submit" class="box4" > Login</button>
+                <div class="box5">
+                    &nbsp;
+                    <p>Don't have an account? &nbsp;<a href="#">Register</a></p>
+                </div>
+            </form>
         </div>
-        <div class="box2">
-            <label for="password"></label>
-            <input type="password" placeholder="password" required>
-            <i class='bx bxs-lock'></i>
-        </div>
-        <div class="box3">
-            <label for="checkbox">
-            <input type="checkbox">Remember me </label>
-            <a href="#">Forget Password?</a>
-        </div>
-        <button type="submit" class="box4">Login</button>
 
-        <div class="box5">
-            <p>Don't have an account?<a 
-                href="#">Register</a></p>
-        </div>
-        </form>
     </div>
-        
+
 </body>
+
 </html>
