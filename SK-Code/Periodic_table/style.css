@@ -1,0 +1,131 @@
+.heading{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content-box{
+    display: flex;
+   
+}
+.element{
+    display: inline-flex;
+    margin-left: 150px;
+    position: static;
+    row-gap: 1px;
+    column-gap: 1px;
+    margin-top: 1px;
+}
+.element2{
+    display: flex;
+    margin-top: 0px;
+    margin-left: 150px;
+    position: absolute;
+    row-gap: 1px;
+    column-gap: 1px;
+}
+.element3{
+    display: flex;
+    margin-top: 0px;
+    margin-left: 636px;
+    position: absolute;
+    row-gap: 1px;
+    column-gap: 1px;
+    /* position: static; */
+
+}
+.element4{
+    display: flex;
+    margin-top: 53px;
+    margin-left: 150px;
+    row-gap: 1px;
+    column-gap: 1px;
+    /* position: absolute; */
+}
+.element5{
+    display: flex;
+   margin-left: 530px;
+   margin-top: 0px;
+   row-gap: 1px;
+   column-gap: 1px;
+}
+
+#box{
+    display:flex ;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+}
+#box:hover{
+    font-size: 30px;
+    /* transition: 1s ease-in-out; */
+    cursor: pointer;
+}
+#xbox:hover{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.He{
+    position: relative;
+    top: 0;
+    left: 848px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    background-color: blue;
+}
+
+.content-box1{
+    margin-left: 50px;
+}
+#xbox{
+    display:flex ;
+    height: 50px;
+    width: 50px;
+    background-color:lightslategray;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+}
+
+#l1{
+    display: flex;
+    justify-content:center;
+    /* margin-right:100px; */
+    margin-top: 50px;
+    margin-left: 100px;
+
+}
+#l2{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 100px;
+    justify-content: center;
+}
+.Non-metal{
+    background-color: green;
+}
+.metalloids{
+    background-color: blueviolet;
+}
+.noble-gas{
+    background-color:blue;
+}
+.halogens{
+    background-color: pink;
+}
+.alkali-metal{
+    background-color:red;
+}
+.Alkaline-earth{
+    background-color: brown;
+}
+.l-a{
+    background-color: lightslategray;
+}
+.Basic-metal{
+    background-color: yellow;
+}
+.Transition-metal{
+    background-color: aqua;
+}

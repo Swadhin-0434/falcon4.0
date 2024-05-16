@@ -1,0 +1,8 @@
+// Variable : Variable can able to store the data.
+// You cannot declare the same variable further.
+// Example: let name = "Swadhin" let name = "Pramod"
+//Syntax : var, let and const(keywords).
+// Recommended --> let and const
+// Example: let num = 10;
+//Javascript is case-sensitive.(A !=a)
+// let second num = 1000; ( space dosn't allow while declaring variable.)
