@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background:black;
+}
+
+h1 {
+    font-size: 200px;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    background: url(https://scontent.fbbi5-3.fna.fbcdn.net/v/t39.30808-6/441350120_990660555959899_885897545634686571_n.jpg?stp=dst-jpg_p843x403&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=DQ-py7b5tG0Q7kNvgHs5XPU&_nc_ht=scontent.fbbi5-3.fna&oh=00_AYAB2-WmgNFSEBSVS9i_D11blx4XYmfZ1AEn_ohVmn0eyg&oe=664C0DC6) 50% 50%;
+    margin: 0;
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}

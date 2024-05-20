@@ -41,3 +41,64 @@ console.log(typeof number); //output: string
 let String = 10
 console.log(typeof String); //output: number
 
+
+// BigInt: 
+// BigInt is a new data type in JavaScript that can represent integers of any size. It is used to store integers that are too large or too small.
+
+
+
+let bigInt = 10000000000000000000000000000000000000;
+console.log(bigInt);
+
+
+// Null :
+
+let result = null; // null : void / empty;
+console.log(typeof result); // null
+
+// Undefined :
+
+// let value = undefined;
+let value; // nothing is assigned.
+console.log(value); // undefined
+console.log(typeof value); // undefined
+
+// Boolean :
+
+let isMarried = false;
+console.log(typeof isMarried); // boolean
+console.log(!isMarried); // true
+
+// Symbol :
+
+// Symbol is a data types in JS to produce unique key values and it's introduced in ES6.
+// It is used to create unique identifiers for objects.
+
+let symbol1 = Symbol("abc"); // differnet value
+let symbol2 = Symbol("def"); // differnet value
+console.log(symbol1 === symbol2); // false
+
+console.log(symbol1.description);
+console.log(symbol2.description);
+
+// NaN :
+// NaN is a data type in JS that represents a non-numeric value. It is used to represent values that are not numbers, such as 1 , 2 , 3 ... etc"
+
+let num_value1 = 100;
+let num_value2 = "150";
+console.log(num_value1 + num_value2); // 100150 
+
+let output = 0 / 0;
+console.log(output); // NaN(Not a Number)
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:grey;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/30/828/862/2013-bullet-classic-enfield-wallpaper-preview.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background:no-repeat; */
+    /* align-content:last baseline; */
+    /* position: absolute;
+    justify-content: left; */
+
+}
+
+.heading {
+    display: flex;
+    display: inline-flex;
+    height: 50px;
+    width: 100vw;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    position: fixed;
+}
+
+.logo img {
+    display: inline-flexbox;
+    /* height: 30px; */
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+
+
+}
+
+h1 {
+    z-index: 200;
+    color:darkred;
+}
+
+.home {
+    display: flex;
+    margin: 10px;
+    color: white;
+}
+
+.home:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.about {
+    display: flex;
+    margin: 10px;
+    color: white;
+}
+
+.about:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.contact {
+    display: flex;
+    margin: 10px;
+    color: white;
+}
+
+.contact:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.content-box {
+    margin-left: 10px;
+    z-index: 1;
+    padding-top: 50px;
+    font-size: 20px;
+    font-family: cursive;
+    color:white;
+}
