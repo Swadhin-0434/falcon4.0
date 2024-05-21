@@ -1,6 +1,6 @@
 // Dates
 
-let myDate = new Date();
+// let myDate = new Date();
 // console.log(myDate);
 // console.log(myDate.toString());
 // console.log(myDate.toDateString());
@@ -15,11 +15,36 @@ let myDate = new Date();
 // console.log(myDate.getTimezoneOffset());
 // console.log(myDate.setMonth());
 
+
+
+
 // todo? Print your birthday in the console using the Date object.
-// todo? Print the current time in the console using the Date object.
-// todo? Print your current age in the console using the Date object.
 
 let My_Birthday = new Date("2003-01-26");
-console.log("My birth day is on ",My_Birthday);
+
+let yr = My_Birthday.getFullYear();
+let month = My_Birthday.getMonth() + 1;
+let date = My_Birthday.getDate();
+
+console.log("The date of my birth is ", yr, month, date);
 
 
+// todo? Print the current time in the console using the Date object.
+
+let current_time = new Date();
+let hr = current_time.getHours();
+let min = current_time.getMinutes();
+let sec = current_time.getSeconds();
+
+console.log("The current time is ",hr,":", min,":",sec);
+
+// todo? Print your current age in the console using the Date object.
+
+let toDay = new Date();
+let M_B = new Date("2003-01-26");
+
+let TODAY = toDay.getFullYear();
+let mb = M_B.getFullYear();
+ console.log("My current age is ",TODAY - mb);
+
+ 
