@@ -73,10 +73,12 @@
 // console.log(aboutMe.indexOf("swadhin")); //15
 
 //isWellFormed()
-let aboutMe = "Hello! This is swadhin kumar behera. Pursuing BCA at govt. auto. college, Phulbani"
-console.log(aboutMe.isWellFormed());
+// let aboutMe = "Hello! This is swadhin kumar behera. Pursuing BCA at govt. auto. college, Phulbani"
+// console.log(aboutMe.isWellFormed());
 
-//
+//italics()
+let aboutMe = "Hello! This is swadhin kumar behera. Pursuing BCA at govt. auto. college, Phulbani"
+console.log(aboutMe.italics());
 
 
 
