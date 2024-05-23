@@ -1,3 +1,5 @@
+// Dt : 21-05-24
+
 // todo? Print your birthday in the console using the Date object.
 
 let My_Birthday = new Date("2003-01-26");
@@ -101,6 +103,8 @@ console.log(myArray);
 //Ans :// 40
       //[10, 20, 30]
 
+
+// Dt: 22-05-24
 
 // # Exercise 1: Manipulate an Array
 // Create an array of numbers.
