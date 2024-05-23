@@ -102,3 +102,30 @@ console.log(myArray);
       //[10, 20, 30]
 
 
+// # Exercise 1: Manipulate an Array
+// Create an array of numbers.
+// Add a number to the end.
+// Remove the first number.
+
+let number = [0,1,2,3,4,5,6,7,8,9]
+let newNumber = number.push(10);
+console.log(number); // Add a number to the end
+let newNumber1 = number.shift();
+console.log(number); //Remove the first number 
+
+
+//# Exercise 2: Combining Arrays
+// Create two arrays of different fruit types.
+// Merge them into one array.
+// Remove any duplicate fruits.
+
+let fruit1 = ["Apple","Orange","Watermelon","Kiwi","Banana",];
+let fruit2 = ["Pineapple","Papaya","Strawberry","Banana","Apple","Kiwi"];
+
+let mixFruit = fruit1.concat(fruit2);
+console.log(mixFruit);
+
+function noduplicate(array){
+      return array.filter((el, index) => array.indexOf(el) === index);
+}
+console.log(noduplicate(mixFruit));
