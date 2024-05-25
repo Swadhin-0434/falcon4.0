@@ -11,7 +11,7 @@
 // console.log((name1 = "Smruti"));
 // console.log((myArray[0] = name1));
 // console.log(myArray);
-
+ 
 // skipping elements :
 // let [, , name3, name4] = myArray;
 // console.log(name3, name4);
