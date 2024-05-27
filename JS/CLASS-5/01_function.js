@@ -11,12 +11,12 @@
 function greeting() {
     console.log("Hey welcome!!");
   }
-  // greeting(); // function invokation
+  greeting(); // function invokation
   
   // Passing parameters / arguments
   
   function welcome(name) {
-    // console.log(`Hey welcome ${name}`);
+    console.log(`Hey welcome ${name}`);
   }
   welcome("Pramod"); // function call
   
@@ -27,7 +27,7 @@ function greeting() {
   }
   let result = addition(2, 3);
 //   console.log(result);
-//   console.log(addition(2, 3));
+  console.log(addition(2, 3));
   
   // Arrow function :
   
@@ -55,10 +55,10 @@ function greeting() {
   let array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
   
   // make every element double
-  // for (let i = 0; i < array.length; i++) {
-  //   array[i] = array[i] * 2;
-  // }
-  // console.log(array);
+  for (let i = 0; i < array.length; i++) {
+    array[i] = array[i] * 2;
+  }
+  console.log(array);
   
   // hof map method :
   let doble = array.map((element, index) => {
